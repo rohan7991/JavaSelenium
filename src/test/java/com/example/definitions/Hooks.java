@@ -25,10 +25,10 @@ public class Hooks {
         }
 
         //validate if scenario has failed
-        else {
-            final byte[] screenshot = ((TakesScreenshot) HelperClass.getDriver()).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png", scenario.getName());
-        }
+//        else {
+//            final byte[] screenshot = ((TakesScreenshot) HelperClass.getDriver()).getScreenshotAs(OutputType.BYTES);
+//            scenario.attach(screenshot, "image/png", scenario.getName());
+//        }
 
         HelperClass.tearDown();
     }
