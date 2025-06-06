@@ -1,3 +1,7 @@
-    JavaSelenium/src/test/java/com.example/
+JavaSelenium/src/test/java/com/example/
 
-    
+actions
+definitions
+locators
+runner
+utils
